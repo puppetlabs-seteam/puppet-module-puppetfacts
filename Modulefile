@@ -1,0 +1,10 @@
+name    'seteam-puppetfacts'
+version '0.0.1'
+source 'https://github.com/puppetlabs-seteam/puppet-module-puppetfacts.git'
+author 'Puppet Labs SE Team'
+license 'Apache 2.0'
+summary 'Custom facter facts about the Puppet Agent'
+description 'Provides custom facts relating to the configuration of the Puppet Agent'
+project_page 'https://github.com/puppetlabs-seteam/puppet-module-puppetfacts'
+
+dependency 'puppetlabs/stdlib', '>= 2.5.1'
